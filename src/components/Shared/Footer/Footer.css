@@ -1,0 +1,11 @@
+.footer-b{
+    background-color: rgb(12, 11, 11);
+    padding-bottom: 0;
+}
+.logo1{
+    width: 170px;
+}
+.item1{
+  display: grid;
+  gap: 130px;
+}
