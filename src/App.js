@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Login from './components/Authentication/Login/Login';
 import Facility from './components/Facility/Facility';
 import Footer from './components/Shared/Footer/Footer';
+import Signup from './components/Authentication/Signup/Signup';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
+          <Router path="/signup">
+            <Signup></Signup>
+          </Router>
           <Route path="/facility">
             <Facility></Facility>
           </Route>

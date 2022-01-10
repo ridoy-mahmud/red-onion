@@ -14,7 +14,7 @@ const Header = () => {
             <div>
                 <Link className='text-black'><FontAwesomeIcon icon={faCartPlus} /></Link>
                 <Link to="/login" className='me-4 ms-4 fw-bold text-black text-decoration-none '>Login</Link>
-                <Link className='me-4 fw-bold text-black text-decoration-none '>
+                <Link to="/signup" className='me-4 fw-bold text-black text-decoration-none '>
                     <button className='btn btn-danger'>Signup</button>
                 </Link>
             </div>
